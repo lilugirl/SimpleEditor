@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-    	<script src="jquery.min.js"></script>
+    	<script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
         <script>
         $(function(){
 
@@ -26,21 +26,8 @@
                 iframeDocument.write('<html><head><style type="text/css">body{ font-family:arial; font-size:13px;background:#DDF3FF }</style></head></html>');
                 iframeDocument.close();
                 binding(i);
-
-               
-
-
-
-                
-
-
-             }
-
-              
-
             
-
-
+             }
 
               function binding(i){
                 var frameselector="#Frame"+i;
@@ -60,7 +47,6 @@
 
               }
 
-      
 
         })
        
