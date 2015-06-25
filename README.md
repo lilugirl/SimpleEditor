@@ -1,2 +1,4 @@
 # SimpleEditor
 一个富文本编辑器最最干瘪原始的代码 
+
+可以复制html代码到iframe框，同时在textarea显示html源码， 修改textarea的源码后，可以看到iframe编辑框的相应变化
