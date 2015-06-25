@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-    	<script src="jquery.min.js"></script>
+    	<script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
 	</head>
 	<body>
 		<script>
