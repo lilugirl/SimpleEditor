@@ -10,13 +10,7 @@
              
                 $("<iframe id='Frame"+i+"' frameBorder=0></iframe>").appendTo('#editorzone');  
                 $("<textarea id='Text"+i+"' name='Text"+i+"'></textarea><br/><br/>").appendTo('#editorzone');
-             }
-             
 
-                       
-           
-             for(i=0;i<j;i++){
-             
                 var iframe=$("#Frame"+i)[0];
                 var text=$("#Text"+i)[0];
                 var iframei=$("iframe")[i];
@@ -26,8 +20,10 @@
                 iframeDocument.write('<html><head><style type="text/css">body{ font-family:arial; font-size:13px;background:#DDF3FF }</style></head></html>');
                 iframeDocument.close();
                 binding(i);
-            
              }
+             
+
+
 
               function binding(i){
                 var frameselector="#Frame"+i;
@@ -44,11 +40,10 @@
                   $(frameselector).contents().find("body").html($(textselector).val());
                   });
 
-
               }
 
-
         })
+       
        
         </script>
         <style>
