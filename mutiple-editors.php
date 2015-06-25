@@ -13,7 +13,7 @@
 
                 var iframe=$("#Frame"+i)[0];
                 var text=$("#Text"+i)[0];
-                var iframei=$("iframe")[i];
+               
                 var iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
                 iframeDocument.designMode = "on";
                 iframeDocument.open();
